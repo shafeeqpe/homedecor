@@ -1,0 +1,500 @@
+
+/*css3 xpertcube 2015*/
+
+/* (320x480) iPhone (Original, 3G, 3GS) */
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 980px) {
+body {
+	width: 100%;
+	overflow-x: hidden !important;
+}
+	
+	.about_sectIOn {
+    width: 100%;
+    margin: 0 0 0;
+
+    position: relative;
+}
+.about_left {
+    width: 100%;
+    float: none;
+}
+	
+	.about_content_absolute {
+  
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 8% 5% 10%;
+  
+    width: 100%;
+}
+	
+	.about_Read {
+		letter-spacing: 2px;}
+
+   
+
+.about_left h1 {
+    color: #404040;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 500;
+	padding-right: 0;
+  
+}.about_left h1  br{
+	display: none;
+   
+}
+	.about_left h2 {
+    
+    font-size: 14px;
+    letter-spacing: 4px;
+  
+    text-align: center;
+    padding-bottom: 18px;
+    padding-right: 0;
+  
+    width: 100%;
+}
+
+	.about_bg{
+		display: none;
+	}
+
+
+
+	.furiniture-category-item{
+		border:1px solid #f1f1f1;
+		padding-bottom: 15px;
+	}
+.category-titles h1 {
+
+
+    line-height: 32px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+ 
+}
+	
+	.category-image::after {
+		opacity: .2 !important;
+	}
+	
+
+.categories{
+	width: 100%;
+}
+.categories h2 {
+    width: 90%;
+    font-size: 26px;
+    background-color: #333333;
+    max-width: 100%;
+    padding: 15px 5%;
+    left: auto;
+   
+}
+	
+	.category-titles h1 span {
+
+    font-size: 32px !important;
+}
+	
+	.category-titles p {
+
+    font-size: 12px !important;
+    text-align: center;
+}
+
+.footer {
+ 
+	padding: 10% 0% 3%;}
+	
+	
+	.footer h2 {
+    width: 90%;
+    font-size: 16px;
+   
+    letter-spacing: 0px;
+    margin: 0 auto;
+}
+
+	.footer_links ul li {
+    width: 100%;
+   
+    text-align: left !important;
+    font-size: 17px;
+		padding: 5px 0;
+    
+}
+.footer_links {
+    width: 90%;
+	padding: 3% 0 6%;}
+
+
+.footer h1 {
+   
+    font-size: 26px;
+  
+    padding-bottom: 20px;
+    letter-spacing: 0px;
+}
+	.footer_social ul li {
+    width: 24%;
+ 
+		font-size: 11px;}
+
+	
+	.footer_social {
+    width: 100%;
+    float: left;
+    max-width: 400px;
+}
+
+	.copy_text{
+		width:100% ;
+		padding-top: 20px;
+		
+	}.copy_text p{
+		width:100% ;
+		font-size: 14px;
+		text-align: center;
+		line-height: 18px;
+		
+	}
+	.about_left_image {
+    width: 100%;
+    padding-top: 42px;
+}
+.contact-section{
+height: auto;
+min-height: 100vh;
+box-sizing: border-box;
+padding-top: 120px;
+padding-bottom: 40px;
+
+}
+.map-detials{
+	top: auto !important;
+	margin-top: 0; 
+}
+
+.contact-banner {
+	float: none;
+	height: 150px;
+	display: none;
+    width: 100%;}
+    .contact-map{
+    	height: 250px;
+    	width: 100%;
+    	float: none;
+    }
+
+    .contact-details-center {
+    width: 100%;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    height: 80%;
+    z-index: 9998;
+    background: red;
+    background: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 40px 5% 40px;
+    text-align: center;
+}
+
+
+}
+
+@media only screen and (min-device-width: 981px) {
+
+}
+
+
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	
+	.header_inner {
+    position: relative;
+    width: 90%;
+    padding: 0px 5%;
+}
+.header {
+    width: 94%;
+   
+    height: 40px;
+  
+    padding: 7px 3%;
+}
+
+.Logo_left {
+    width: 60px;
+   
+    min-width: 60px;
+}	
+	
+	
+	.slider_overLay {
+    position: absolute;
+   
+    height: 100%;
+		top: 0;
+		left: 0;
+
+    width: 100%;
+    
+}
+
+	
+	.slides-pagination a {
+    border-radius: 50%;
+margin: 6px;
+    width: 8px;
+		height: 8px;}
+	
+	
+	.categories_slider {
+    width: 200px;
+    padding: 7% 0;
+    bottom: 25%;
+    top: auto;
+}
+
+
+	
+
+	
+	.slider_text {
+    margin: 0 0;
+    float: none;
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    top: 20%;
+    left: 10%;
+		display: none;
+}
+.slides-pagination {
+  
+    bottom: 16%;
+    text-align: right;
+    width: auto;
+    right: 10%;
+}
+	.categories_slider nav a {
+
+    margin: 0px 0;
+		font-size: 18px;
+		
+   
+}
+
+
+
+.slider_text h1 {
+    font-size: 20px;
+    line-height: 28px;
+   
+}
+
+	.slider_text h1 span {
+    font-size: 37px;
+   
+
+}
+	.slider_text h2 {
+    font-size: 19px;
+    line-height: 28px;
+	}
+	
+	
+	
+	.advertisemnt_left {
+    width: 100%;
+    float: none;
+    
+}	.advertisemnt_right {
+    width: 100%;
+    float: none;
+    
+}
+
+}
+
+
+/* (320x480) Smartphone, Portrait */
+@media only screen and (device-width: 320px) and (orientation: portrait) {
+/* insert styles here */
+	
+}
+
+/* (320x480) Smartphone, Landscape */
+@media only screen and (device-width: 480px) and (orientation: landscape) {
+}
+
+/* (480x800) Android */
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+/* insert styles here */
+.advertisemnt_left .category-titles {
+
+    right: 5% !important;
+    top: 18%;
+   
+}
+.advertisemnt_right .category-titles {
+
+    left: 5%;
+    top: 18%;
+   
+}
+	.footer_social{
+		max-width: 100%;
+			
+	}
+.footer_social ul li {
+    width: 24%;
+    font-size: 16px;
+}
+.copy_text {
+    width: 100%;
+    padding-top: 30px;
+}.copy_text p {
+    width: 100%;
+	font-size: 17px;
+	text-align: left;
+
+}
+	
+	.footer_links ul li {
+    width: 49%;
+   
+}
+.footer_links ul li {
+       width: 49%;
+	padding: 5px;
+	box-sizing: border-box;
+	text-align: left!important;
+}
+	
+	
+	.footer_links ul li:nth-child(2n) {
+
+ 
+    text-align: right!important;
+   
+}	
+
+
+
+
+
+}
+
+/* (640x960) iPhone 4 & 4S */
+@media only screen and (min-device-width: 480px) and (max-device-width: 640px) {
+/* insert styles here */
+.cd-intro .header_inner{
+    width: 100%;}
+
+}
+
+/* (720x1280) Galaxy Nexus, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+/* insert styles here */
+
+	
+	
+}
+
+/* (720x1280) Galaxy Nexus, Landscape */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
+/* insert styles here */
+}
+
+/* (1024x768) iPad 1 & 2, XGA */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+/* insert styles here */
+	
+		.categories_slider {
+
+    top: 58%;
+}
+
+.contact-details-center p a {
+    font-size: 18px;
+   
+}
+}
+
+/* (768x1024) iPad 1 & 2, Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+/* insert styles here */
+	
+	
+}
+
+/* (1024x768) iPad 1 & 2, Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+/* insert styles here */
+	
+	
+}
+
+/* (2048x1536) iPad 3 */
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) {
+/* insert styles here */
+}
+
+/* (1280x720) Galaxy Note 2, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+/* insert styles here */
+}
+
+/* (1366x768) WXGA Display */
+@media screen and (max-width: 1366px) {
+/* insert styles here */
+
+}
+
+/* (1280x1024) SXGA Display */
+@media screen and (max-width: 1280px) {
+/* insert styles here */
+}
+
+/* (1440x900) WXGA+ Display */
+@media screen and (max-width: 1440px) {
+/* insert styles here */
+}
+
+/* (1680x1050) WSXGA+ Display */
+@media screen and (max-width: 1680px) {
+/* insert styles here */
+}
+
+/* (1920x1080) Full HD Display */
+@media screen and (max-width: 1920px) {
+/* insert styles here */
+}
+
+/* (1600x900) HD+ Display */
+@media screen and (max-width: 1600px) {
+/* insert styles here */
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1280px) and (orientation: landscape) {
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1280px) {
+	
+	
+}
+
+@media only screen and (min-device-width: 981px) {
+}
