@@ -582,64 +582,46 @@ img {
 	top: 0;
 
 }
-.ContactBanner:after{
+.ServicesImage:after{
 	content: '';
 	height: 100%;
 	width: 100%;
 	display: block;;
 	z-index: 9;
-	background-color: rgb(0,0,0,0.5);
+	background-color: rgb(0,0,0,0.7);
 	position: absolute;
 	top: 0;
 }
-.ContactBanner img{
+.ServicesImage img{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	filter: grayscale(100%);
 }
 
-.ContactContents{
+.ServicesContent{
 	position: absolute;
-	left: 15%;
-	top: 15%;
-	width: 70%;
+	right: 15%;
+	top: 50%;
+	width: 400px;
+	transform: translateY(-50%);
 	z-index: 99;
 }
-.ContactContents h1{
+.ServicesContent h1{
 	color: #fff;
 	position: relative;
 	font-size: 45px;
-	text-align: left;
+	text-align: right;
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 }
-.ContactContents h1:after{
+.ServicesContent h1:after{
 	background-color: rgb(0, 76,63,0.85);
 	height:5px;
 	width: 220px;
 	content: '';
 	display: block;
-	left: 0;
+	right: 0;
 	position: absolute;
 	bottom: 0;
-}
-
-
-.contact-map{
-	width: 100%;
-	height: 15vmax;
-	position: relative;
-	display: block;
-}
-#map{
-	height: 100%;
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
-}
-
-.ContactDetailAndForm{
-	margin-top: 2%;
 }

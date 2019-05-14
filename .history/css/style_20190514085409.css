@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700|Vidaloka');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900|Vidaloka');
 body {
 	color: #fff;
 	font-size: 12px;
 	line-height: 26px;
 	font-weight: lighter !important;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background: #fff;
 	overflow-x: hidden;
 	width: 100%;
@@ -364,8 +364,8 @@ img {
    z-index: 10;
 }
 #sticky-social a {
-   background: #fab03b;
-   color: #fff;
+   background: #fcc741;
+   color: #000;
    display: block;
    height: 35px;
    line-height: 35px;
@@ -416,7 +416,7 @@ img {
 	width: 100%;
 	display: block;;
 	z-index: 9;
-	background-color: rgb(0,0,0,0.4);
+	background-color: rgb(0,0,0,0.1);
 	position: absolute;
 	top: 0;
 }
@@ -444,8 +444,7 @@ img {
 	padding-bottom: 20px;
 }
 .AboutContent h1:after{
-	background-color: rgb(0, 76,63,0.9);
-	mix-blend-mode: overlay;
+	background-color: rgb(0, 61, 56,0.9);
 	height:5px;
 	width: 220px;
 	content: '';
@@ -456,9 +455,8 @@ img {
 }
 
 .AboutText{
-	background-color: rgb(0, 76,63,0.85);
-	mix-blend-mode: overlay;
-	padding:15% 8%;
+	background-color: rgb(0, 150, 136,0.9);
+	padding:15% 5%;
 	width: 100%;
 	box-sizing: border-box;
 }
@@ -479,7 +477,6 @@ img {
 
 
 /*ABOUT PAGE*/
-
 .ServicesPage{
 	width: 100%;
 	height: 100vh;
@@ -529,7 +526,7 @@ img {
 	padding-bottom: 20px;
 }
 .ServicesContent h1:after{
-	background-color: rgb(0, 76,63,0.85);
+	background-color: rgb(0, 150, 136,0.9);
 	height:5px;
 	width: 220px;
 	content: '';
@@ -540,9 +537,8 @@ img {
 }
 
 .ServicesListing{
-	background-color: rgb(0, 76,63,0.85);
-	filter: mix-blend-mode(overlay);
-	padding:15% 8%;
+	background-color: rgb(0, 150, 136,0.5);
+	padding:15% 5%;
 	width: 100%;
 	box-sizing: border-box;
 }
@@ -556,8 +552,6 @@ img {
 	color: #fff;
 	list-style: disc;
 	list-style-position: inside;
-	margin-bottom: 4%;
-	text-transform: capitalize;
 	
 }
 
@@ -566,80 +560,139 @@ img {
 /*CONTACT PAGE*/
 
 
-
-.ContactPage{
+.contact-section{
 	width: 100%;
-	height: 100vh;
+	height:100%;
 	display: block;
 	position: relative;
+	background: #151514;
 
-}
-.ContactBanner{
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	display: block;
-	top: 0;
+	}
 
-}
-.ContactBanner:after{
-	content: '';
-	height: 100%;
-	width: 100%;
-	display: block;;
-	z-index: 9;
-	background-color: rgb(0,0,0,0.5);
-	position: absolute;
-	top: 0;
-}
-.ContactBanner img{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	filter: grayscale(100%);
-}
 
-.ContactContents{
-	position: absolute;
-	left: 15%;
-	top: 15%;
-	width: 70%;
-	z-index: 99;
-}
-.ContactContents h1{
-	color: #fff;
-	position: relative;
-	font-size: 45px;
-	text-align: left;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-}
-.ContactContents h1:after{
-	background-color: rgb(0, 76,63,0.85);
-	height:5px;
-	width: 220px;
-	content: '';
-	display: block;
-	left: 0;
-	position: absolute;
-	bottom: 0;
+.map-detials{
+	width: 90%;
+	margin: 0 auto;
+		box-shadow:10px 10px 20px  rgba(0,0,0,0.9) ;
+		top: 19vh;
+		position: relative;
+		border-radius: 10px;
+		overflow: hidden;
+		position: relative;
+
 }
 
 
 .contact-map{
-	width: 100%;
-	height: 15vmax;
-	position: relative;
+	height: 70vh;
+	width: 65%;
+	float: left;
 	display: block;
-}
-#map{
-	height: 100%;
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
+	
+
+
 }
 
-.ContactDetailAndForm{
-	margin-top: 2%;
+
+
+
+	#map {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	max-width: 100%;
+	margin: 0 auto;
+	pointer-events: none;
+	position: relative;
+	z-index: 99;
 }
+
+
+.contact-details-center{
+
+	width: 30%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%);
+	height: 80%;
+	z-index: 9998;
+	background: red;
+	background: #fff;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding:7vh 5% 0;
+}
+.contact-details-center h1{
+	font-size: 35px;
+	color: #1b1f27;
+	font-weight: 700;
+	padding-bottom: 7vh;
+
+
+}
+
+.contact-details-center h2{
+	font-size: 18px;
+	color: #1b1f27;
+	font-weight: 500;
+	padding-bottom: 0;
+	
+
+
+}
+.contact-details-center p{
+	font-size: 22px;
+	color: #1b1f27;
+		padding-bottom: 2vh;
+		font-weight: 700;
+
+
+}
+
+.contact-details-center p a{
+	font-size: 22px;
+	color: #1b1f27;
+	font-weight: 700;
+	text-decoration: none;
+
+
+}
+.contact-details-center ul{
+	width: 100%;
+	margin-top: 1vh;
+	display: block;
+
+
+}
+.contact-details-center ul a{
+	font-size: 22px;
+	color: #1b1f27;
+	font-weight: 700;
+	text-decoration: none;
+	display: inline-block;
+	width: 25px;
+	margin-right: 10px;
+
+
+}
+
+
+
+
+.contact-banner{
+	background: url(../images/banner-contact.jpg);
+	width: 35%;
+	height: 70vh;
+	position: relative;
+	display: block;
+	background-size: cover;
+	background-position: center;
+	float: right;
+}
+
+.gmnoprint, .gm-style-cc{
+	display: none !important;
+}
+a[rel*="noopener"] {
+    display: none !important;}

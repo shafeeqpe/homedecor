@@ -24,7 +24,6 @@ $('.right_slide_menu a').click(function () {
 
 $('body').click(function () {
 	$('.main_menu_slide').removeClass('main_menu_active');
-	$(".menu_btn_2 ").removeClass('menu-opened');
 
 
 });
