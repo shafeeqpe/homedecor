@@ -63,6 +63,19 @@ img {
 
 }
 
+
+
+
+
+
+.white-bg .menu-right a{
+color: #fff !important;
+}
+.white-bg .hamburger__inner, .white-bg .hamburger__inner::before, .white-bg  .hamburger__inner::after {
+	background-color:#fff ;
+}
+
+
 .Logo_left {
 	width: 80px;
 	float: right;
@@ -437,7 +450,7 @@ img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	filter: grayscale(100%);
+	/*filter: grayscale(100%);*/
 }
 
 .ServicesContent{
@@ -770,18 +783,95 @@ img {
 
 .contact-map{
 	width: 100%;
-	height: 15vmax;
+	height: 19vmax;
 	position: relative;
 	display: block;
+
 }
-#map{
+.contact-map iframe{
 	height: 100%;
 	position: absolute;
 	width: 100%;
 	top: 0;
 	left: 0;
+	display: block;
+
 }
 
 .ContactDetailAndForm{
-	margin-top: 2%;
+	margin-top: 5%;
+
 }
+.ContactInfo{
+	width: 52%;
+	float: left;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.ContactInfo p{
+
+	width: 48%;
+	font-size: 18px;
+	color: #fff;
+	display: block;
+	padding-left: 30px;
+	box-sizing: border-box;
+	position: relative;
+	line-height: 24px;
+	margin-bottom: 20px;
+
+}
+.ContactInfo p i{
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 25px;
+	width: 30px;
+}
+.ContactInfo p .fa-mobile{
+	
+	font-size: 32px;
+
+}
+.ContactInfo p .fa-envelope{
+	
+	margin-left: -5px;
+
+}
+
+.ContactForm{
+	width: 45%;
+	float: right;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.ContactForm input{
+	width: 48%;
+	display: block;
+	border:1px solid rgba(255,255,255,0.5);
+	background-color: #fff;
+	padding: 10px 15px;
+	border-radius: 50px;
+	box-sizing: border-box;
+	font-size: 16px;
+	outline: :none !important;
+}
+.ContactForm textarea{
+	width: 100%;
+	display: block;
+	border:1px solid rgba(255,255,255,0.5);
+	background-color: #fff;
+	color: #000;
+	padding: 10px 15px;
+	border-radius: 50px;
+	min-height: 60px;
+	box-sizing: border-box;
+	max-height: 60px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	margin-top: 15px;
+	outline: :none !important;
+}
+
