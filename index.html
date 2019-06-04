@@ -249,18 +249,15 @@
           <input type="text" placeholder="Your Name">
           <input type="text" placeholder="Your Email">
           <textarea placeholder="Message"></textarea>
+          <button class="SendBtn">Send Message</button>
         </div>
 
        </div>
      </div>
  </div>
 
-    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-
+    <script src="js/jqueryMain.js" type="text/javascript"></script>
     <script src="js/menu.js" type="text/javascript" charset="utf-8"></script>
-
-
-
 
     <script src="js/slider.js" type="text/javascript" charset="utf-8"></script>
     <script>
@@ -282,82 +279,9 @@
     });
     </script> <!--main slider-->
 
-
-
-
-
-
-
-
-
-
-    <script type="text/javascript">
-
-
-if (document.documentElement.clientWidth > 980) {
-$(function(){
-
-  var $window = $(window);    //Window object
-
-  var scrollTime = 1.2;     //Scroll time
-  var scrollDistance = 200;   //Distance. Use smaller value for shorter scroll and greater value for longer scroll
-
-  $window.on("mousewheel DOMMouseScroll", function(event){
-
-    event.preventDefault();
-
-    var delta = event.originalEvent.wheelDelta/80 || -event.originalEvent.detail/3;
-    var scrollTop = $window.scrollTop();
-    var finalScroll = scrollTop - parseInt(delta*scrollDistance);
-
-    TweenMax.to($window, scrollTime, {
-      scrollTo : { y: finalScroll, autoKill:true },
-        ease: Power1.easeOut, //For more easing functions see https://api.greensock.com/js/com/greensock/easing/package-detail.html
-        autoKill: true,
-        overwrite: 5
-      });
-
-  });
-
-});
-
-};
-    </script>
-
-
-<script type="text/javascript">
-
-
-$(window).load(function() { // makes sure the whole site is loaded
-    $("#loader-logo").fadeOut(); // will first fade out the loading animation
-    $("#preloader-bg").delay(600).fadeOut("slow"); // will fade out the white DIV that covers the website.
-})
-
-// Animated CSS preloader from http://tobiasahlin.com/spinkit/
-// Excellent preloader example found here: http://ismet.me/index.html
-</script>
-<!-- <script src="https://code.jquery.com/jquery-compat-git.js"></script> -->
 <script src="js/portfolio.js"></script>
 <script src="js/header.js"></script>
-<script type="text/javascript">
 
-function scrollNav() {
-  $('a[href^="#"]').click(function(){  
-    //Toggle Class
-    
-   
-    //Animate
-    $('html, body').stop().animate({
-        scrollTop: $( $(this).attr('href') ).offset().top - 100
-    }, 800);
-    return false;
-  });
-  
-  $('.scrollTop a').scrollTop();
-}
-scrollNav();
-
-</script>
 
 </body>
 </html>
