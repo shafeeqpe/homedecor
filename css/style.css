@@ -168,6 +168,7 @@ color: #fff !important;
 	z-index: 9;
 	height: 100vh;
 	font-family: 'Vidaloka', serif !important;
+	background: #000;
 }
 #slides {
 	position: relative;
@@ -283,7 +284,7 @@ color: #fff !important;
 	text-align: center;
 }
 .content_banner img {
-	animation: zomminAnim 9s infinite;
+	/* animation: zomminAnim 9s infinite; */
 }
  @-webkit-keyframes zomminAnim {
  0% {
@@ -457,9 +458,8 @@ color: #fff !important;
 .ServicesContent{
 	position: absolute;
 	right: 15%;
-	top: 50%;
+	top: 15%;
 	width: 400px;
-	transform: translateY(-50%);
 	z-index: 99;
 }
 .ServicesContent h1{
@@ -787,17 +787,8 @@ color: #fff !important;
 	height: 19vmax;
 	position: relative;
 	display: block;
-
 }
-.contact-map iframe{
-	height: 100%;
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
-	display: block;
 
-}
 
 .ContactDetailAndForm{
 	margin-top: 5%;
@@ -857,7 +848,7 @@ color: #fff !important;
 	border-radius: 50px;
 	box-sizing: border-box;
 	font-size: 16px;
-	outline: :none !important;
+	outline: none !important;
 }
 .ContactForm textarea{
 	width: 100%;
@@ -873,16 +864,93 @@ color: #fff !important;
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	margin-top: 15px;
-	outline: :none !important;
+	outline: none !important;
 }
 .SendBtn{
-	background-color:rgba(0,165,155,1)
+	background-color:rgba(0,165,155,1);
 	width:160px;
 	text-align: center;;
-	padding:5px 15px;
+	padding:8px 15px;
 	box-sizing: border-box;
 	color: #fff;
 	font-size: 18px;
+	border:none !important;
+	border-radius: 20px;
+	margin-top: 10px;
 
 }
 
+
+#map {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	max-width: 100%;
+	margin: 0 auto;
+	pointer-events: none;
+	z-index: 99;
+}
+
+.fixed-button {
+  background-color: rgb(6, 175, 0);
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  height: 50px;box-sizing: border-box;
+  width: 50px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  box-shadow: 1px 3px 5px rgba(28, 28, 28, 0.582);
+  z-index: 99999;
+  font-size: 25px;
+  padding: 12px;
+  display: block;
+
+}
+
+@keyframes wobble {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    -ms-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.wobble {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
