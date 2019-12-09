@@ -10,7 +10,7 @@
     <link href="css/menu.css" rel="stylesheet" type="text/css" />
     <link href="css/owl.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-    <link rel='stylesheet' href='https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css'>
+    <link rel='stylesheet' href='https://unpkg.com/aos@2.3.1/dist/aos.css'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
     <script src="js/modernizr.js"></script> <!-- Modernizr -->
@@ -153,6 +153,7 @@
      <div class="AboutImage" >
             <img src="images/ABOUT-IMAGE.jpg">
         </div>
+        <div class="MultiplyBackground"  data-aos="fade-up"></div>
     <div class="AboutContent">
        
         <h1 data-aos="fade-up">About Us</h1>
@@ -169,11 +170,12 @@
      <div class="ServicesImage" >
             <img src="images/services.jpg">
         </div>
-    <div class="ServicesContent" data-aos="fade-up">
+        <div class="MultiplyBackground2"  data-aos="fade-up"></div>
+    <div class="ServicesContent">
        
         <h1 data-aos="fade-up">Services</h1>
         <div class="ServicesListing">
-            <ul>
+            <ul  data-aos="fade-up">
   <li > modular kichen </li>
   <li >bed room,</li>
   <li >living room,</li>
@@ -281,7 +283,7 @@
 
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
-<script src='https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js'></script>
+<script src='https://unpkg.com/aos@2.3.1/dist/aos.js'></script>
 <script>
   AOS.init({
   duration: 1200,
