@@ -167,7 +167,6 @@ color: #fff !important;
 	position: relative;
 	z-index: 9;
 	height: 100vh;
-	font-family: 'Vidaloka', serif !important;
 	background: #000;
 }
 #slides {
@@ -387,7 +386,10 @@ color: #fff !important;
 }
 .AboutContent h1:after{
 	background-color: rgba(0,165,155,.85);
-	mix-blend-mode: overlay;
+	background: url(../images/bg.png);
+	background-size: contain;
+	background-repeat: repeat;
+	background-blend-mode: multiply;
 	height:5px;
 	width: 220px;
 	content: '';
@@ -402,8 +404,10 @@ color: #fff !important;
 	padding:15% 8%;
 	width: 100%;
 	box-sizing: border-box;
-	background-color: rgba(0,165,155,1);
-	mix-blend-mode: multiply;
+	background: url(../images/bg.png);
+	background-size: contain;
+	background-repeat: repeat;
+	background-blend-mode: multiply;
 }
 
 .AboutText p{
@@ -471,7 +475,10 @@ color: #fff !important;
 	padding-bottom: 20px;
 }
 .ServicesContent h1:after{
-	background-color: rgba(0,165,155,.85);
+	background: url(../images/bg.png);
+	background-size: contain;
+	background-repeat: repeat;
+	background-blend-mode: multiply;
 	height:5px;
 	width: 220px;
 	content: '';
@@ -482,8 +489,10 @@ color: #fff !important;
 }
 
 .ServicesListing{
-	background-color: rgba(0,165,155,1);
-	mix-blend-mode: multiply;
+	background: url(../images/bg.png);
+	background-size: contain;
+	background-repeat: repeat;
+	background-blend-mode: multiply;
 	padding:15% 8%;
 	width: 100%;
 	box-sizing: border-box;
@@ -771,7 +780,10 @@ color: #fff !important;
 	padding-bottom: 20px;
 }
 .ContactContents h1:after{
-	background-color: rgba(0,165,155,.85);
+	background: url(../images/bg.png);
+	background-size: contain;
+	background-repeat: repeat;
+	background-blend-mode: multiply;
 	height:5px;
 	width: 220px;
 	content: '';
@@ -867,7 +879,10 @@ color: #fff !important;
 	outline: none !important;
 }
 .SendBtn{
-	background-color:rgba(0,165,155,1);
+	background: url(../images/bg.png);
+	background-size: contain;
+	background-repeat: repeat;
+	background-blend-mode: multiply;
 	width:160px;
 	text-align: center;;
 	padding:8px 15px;
