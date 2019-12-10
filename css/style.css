@@ -67,7 +67,6 @@ img {
 
 
 
-
 .white-bg .menu-right a{
 color: #fff !important;
 }
@@ -760,10 +759,10 @@ color: #fff !important;
 /*CONTACT PAGE*/
 
 
-
 .ContactPage{
 	width: 100%;
 	height: 100vh;
+	min-height: 800px !important;
 	display: block;
 	position: relative;
 
