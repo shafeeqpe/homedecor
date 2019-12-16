@@ -1,4 +1,93 @@
    /* (1600x900) HD+ Display */
    @media screen and (max-width: 900px) {
     /* insert styles here */
+
+    .MultiplyBackground,.MultiplyBackground2{
+       display: none;
+    }
+    .AboutPage {
+      width: 100%;
+      height: auto;
+      display: block;
+      position: relative;
+  }
+    .AboutImage {
+      position: relative;
+      height: 350px;
+      width: 100%;
+      display: block;
+      top: 0;
+  }
+    .AboutContent {
+      position: relative;
+      left: 0;
+      top: 0;
+      width: 100%;
+      padding: 16% 0;
+      background: #00817a;
+      transform: none;
+  }
+  .AboutContent h1 {
+   position: relative;
+   font-size: 35px;
+   text-align: center;
+   margin-bottom: 20px;
+   width: 90%;
+   margin: 0 auto;
+}
+.AboutContent h1:after {
+ position: relative;
+   width: 150px;
+   margin: 15px auto 0;
+}
+.AboutText{
+padding: 4% 30px;
+width: 100%;
+text-align: center;
+background-blend-mode: multiply;
+}
+
+
+.ServicesPage {
+   width: 100%;
+   height: auto;
+   display: block;
+   position: relative;
+}
+ .ServicesImage {
+   position: relative;
+   height: 350px;
+   width: 100%;
+   display: block;
+   top: 0;
+}
+ .ServicesContent {
+   position: relative;
+   left: 0;
+   top: 0;
+   width: 100%;
+   padding: 16% 0;
+   background: #00817a;
+   transform: none;
+}
+.ServicesContent h1 {
+position: relative;
+font-size: 35px;
+text-align: center;
+margin-bottom: 20px;
+width: 90%;
+margin: 0 auto;
+}
+.ServicesContent h1:after {
+position: relative;
+width: 150px;
+margin: 15px auto 0;
+}
+.ServicesText{
+padding: 4% 30px;
+width: 100%;
+text-align: center;
+background-blend-mode: multiply;
+}
+
     }

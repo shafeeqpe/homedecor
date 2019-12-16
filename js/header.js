@@ -4,7 +4,7 @@ $(window).scroll(function () {
     if (sc > 80) {
         $(".header").addClass("white-bg");
     } else {
-        $(".header").removeClass("white-bg");
+        $(".header").addClass("white-bg");
     }
 });
 }
